@@ -48,5 +48,4 @@ with open('sales_goals.csv', 'w') as f:
   f.write('web domain,website response code\n')
   for data in domain_status:
     line = data[0] + ',' + str(data[1]) + '\n'
-    print(line)
     f.write(line)
